@@ -23,7 +23,7 @@ import AnimeContain from './components/AnimeContain.vue'
     },
     methods:{
       async fetchAnime(){
-        const res=await fetch("https://nodejs-backend-ts3u.onrender.com")
+        const res=await fetch("https://nodejs-backend-ts3u.onrender.com/api")
         const data=await res.json()
             console.log(data)
         return data

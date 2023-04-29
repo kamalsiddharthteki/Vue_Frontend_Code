@@ -22,15 +22,16 @@
 
 <style scoped>
 .animecontainer{
-    background-color: red;
+    background-color: rgb(255, 170, 0);
     text-align: center;
     color: white;
     border-radius: 60px;
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 220px;
+    height: 300px;
+    box-shadow: 5px 5px 20px black;
 }
 
 .description{
