@@ -36,22 +36,50 @@ import AnimeContain from './components/AnimeContain.vue'
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
 #container{
-  background-color: black;
+  /* display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 30px; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 5%;
   margin: 0 5%;
+  height :100%;
 }
 
 #app{
-  background-color: black;
+  background-color: rgb(21, 21, 21);
 }
 
 html{
-  background-color: black;
+  background-color: rgb(21, 21, 21);
 }
 
+@media only screen and (max-width:915px){
+  #container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+    margin: 0 10%;
+    height :100%;
+    justify-content: center;
+  }
+}
 
+@media only screen and (max-width:700px){
+  #container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+    margin: 0 20%;
+    height :100%;
+  }
+}
 </style>
