@@ -39,7 +39,7 @@
 }
 
 img{
-    width: 65%;
+    width: 60%;
     height: 300px;
     min-height: 200px;
     box-shadow: 5px 5px 20px black;
