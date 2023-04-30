@@ -33,8 +33,13 @@ h1{
     font-size: 45px;
 }
 
+h1:hover{
+    font-size: 55px;
+    transition:1000ms;
+}
 h2{
     font-size: 25px;
+    margin-bottom: 80px;
 }
 
 </style>

@@ -29,18 +29,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 .animecontainer{
-    background-color: rgb(255, 140, 0);
+    background-color: rgb(255, 170, 0);
     text-align: center;
     border-radius: 20px;
 }
 
 .animecontainer:hover{
-    background-color: rgb(255, 98, 0);
+    background-color: rgb(44, 255, 72);
 }
 
 img{
-    width: 60%;
-    height: 300px;
+    width: 150px;
+    height: 200px;
     min-height: 200px;
     box-shadow: 5px 5px 20px black;
 }
@@ -57,7 +57,6 @@ img{
 }
 
 h1, h2, h3{
-    /* text-shadow: 1px 1px 4px black; */
     font-family: 'Vina Sans', cursive;
     color:rgb(21, 21, 21);
 }
